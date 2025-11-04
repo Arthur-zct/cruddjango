@@ -1,0 +1,51 @@
+# Ambiente virtual
+venv/
+.env/
+*.env
+.env
+
+# Compilações Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Banco de dados local (caso tu use SQLite)
+db.sqlite3
+
+# Arquivos de migração (se quiser ignorar temporariamente)
+# migrations/
+
+# Arquivos temporários / cache
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configuração de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências / pacotes
+node_modules/
+__pypackages__/
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos de mídia ou estáticos gerados
+/media/
+staticfiles/
